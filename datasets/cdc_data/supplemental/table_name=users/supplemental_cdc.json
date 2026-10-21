@@ -1,0 +1,42 @@
+[
+  {
+    "before": {
+      "id": 1, "first_name": "Sarah", "last_name": "Thompson",
+      "email": "wwatkins@example.com", "age": 62, "gender": "Other",
+      "state": "IA", "city": "West Markton", "country": "USA",
+      "created_at": "2026-11-13T22:02:21.763355+00:00",
+      "updated_at": "2026-01-08T22:02:21.763355+00:00", "is_deleted": false
+    },
+    "after": {
+      "id": 1, "first_name": "Sarah", "last_name": "Thompson",
+      "email": "sarah.thompson@example.com", "age": 63, "gender": "Other",
+      "state": "IA", "city": "West Markton", "country": "USA",
+      "created_at": "2026-11-13T22:02:21.763355+00:00",
+      "updated_at": "2026-01-15T12:00:00.000000+00:00", "is_deleted": false
+    },
+    "source": {
+      "version": "2.1.4.Final", "connector": "postgresql", "name": "ecommerce",
+      "ts_ms": 1736942400000, "snapshot": "false", "db": "ecommerce_db",
+      "sequence": "[null,\"2100001\"]", "schema": "public", "table": "users",
+      "txId": 110001, "lsn": 2100001, "xmin": null
+    },
+    "op": "u", "ts_ms": 1736942400000, "transaction": null
+  },
+  {
+    "before": {
+      "id": 3, "first_name": "Mike", "last_name": "Johnson",
+      "email": "mike.j@example.com", "age": 45, "gender": "Male",
+      "state": "TX", "city": "Austin", "country": "USA",
+      "created_at": "2026-09-01T10:00:00.000000+00:00",
+      "updated_at": "2026-03-01T10:00:00.000000+00:00", "is_deleted": false
+    },
+    "after": null,
+    "source": {
+      "version": "2.1.4.Final", "connector": "postgresql", "name": "ecommerce",
+      "ts_ms": 1736942700000, "snapshot": "false", "db": "ecommerce_db",
+      "sequence": "[null,\"2100002\"]", "schema": "public", "table": "users",
+      "txId": 110002, "lsn": 2100002, "xmin": null
+    },
+    "op": "d", "ts_ms": 1736942700000, "transaction": null
+  }
+]

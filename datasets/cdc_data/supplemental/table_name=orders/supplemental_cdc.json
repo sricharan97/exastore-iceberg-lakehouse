@@ -1,0 +1,187 @@
+[
+  {
+    "before": {
+      "order_id": 1,
+      "user_id": 36,
+      "order_date": "2026-12-20T04:55:32.047949+00:00",
+      "status": "pending",
+      "total_amount": 396.18,
+      "payment_method": "Debit Card",
+      "created_at": "2026-12-20T04:55:32.047949+00:00",
+      "updated_at": "2026-01-04T13:55:32.047949+00:00",
+      "is_deleted": false
+    },
+    "after": {
+      "order_id": 1,
+      "user_id": 36,
+      "order_date": "2026-12-20T04:55:32.047949+00:00",
+      "status": "shipped",
+      "total_amount": 396.18,
+      "payment_method": "Debit Card",
+      "created_at": "2026-12-20T04:55:32.047949+00:00",
+      "updated_at": "2026-01-15T10:00:00.000000+00:00",
+      "is_deleted": false
+    },
+    "source": {
+      "version": "2.1.4.Final",
+      "connector": "postgresql",
+      "name": "ecommerce",
+      "ts_ms": 1736935200000,
+      "snapshot": "false",
+      "db": "ecommerce_db",
+      "sequence": "[null,\"2000001\"]",
+      "schema": "public",
+      "table": "orders",
+      "txId": 100001,
+      "lsn": 2000001,
+      "xmin": null
+    },
+    "op": "u",
+    "ts_ms": 1736935200000,
+    "transaction": null
+  },
+  {
+    "before": {
+      "order_id": 2,
+      "user_id": 35,
+      "order_date": "2026-12-28T11:51:11.470354+00:00",
+      "status": "pending",
+      "total_amount": 293.11,
+      "payment_method": "Apple Pay",
+      "created_at": "2026-12-28T11:51:11.470354+00:00",
+      "updated_at": "2026-01-07T17:51:11.470354+00:00",
+      "is_deleted": false
+    },
+    "after": {
+      "order_id": 2,
+      "user_id": 35,
+      "order_date": "2026-12-28T11:51:11.470354+00:00",
+      "status": "delivered",
+      "total_amount": 293.11,
+      "payment_method": "Apple Pay",
+      "created_at": "2026-12-28T11:51:11.470354+00:00",
+      "updated_at": "2026-01-15T10:05:00.000000+00:00",
+      "is_deleted": false
+    },
+    "source": {
+      "version": "2.1.4.Final",
+      "connector": "postgresql",
+      "name": "ecommerce",
+      "ts_ms": 1736935500000,
+      "snapshot": "false",
+      "db": "ecommerce_db",
+      "sequence": "[null,\"2000002\"]",
+      "schema": "public",
+      "table": "orders",
+      "txId": 100002,
+      "lsn": 2000002,
+      "xmin": null
+    },
+    "op": "u",
+    "ts_ms": 1736935500000,
+    "transaction": null
+  },
+  {
+    "before": {
+      "order_id": 3,
+      "user_id": 54,
+      "order_date": "2026-12-22T18:32:45.593588+00:00",
+      "status": "processing",
+      "total_amount": 388.10,
+      "payment_method": "Google Pay",
+      "created_at": "2026-12-22T18:32:45.593588+00:00",
+      "updated_at": "2026-01-10T17:32:45.593588+00:00",
+      "is_deleted": false
+    },
+    "after": {
+      "order_id": 3,
+      "user_id": 54,
+      "order_date": "2026-12-22T18:32:45.593588+00:00",
+      "status": "cancelled",
+      "total_amount": 388.10,
+      "payment_method": "Google Pay",
+      "created_at": "2026-12-22T18:32:45.593588+00:00",
+      "updated_at": "2026-01-15T10:10:00.000000+00:00",
+      "is_deleted": true
+    },
+    "source": {
+      "version": "2.1.4.Final",
+      "connector": "postgresql",
+      "name": "ecommerce",
+      "ts_ms": 1736935800000,
+      "snapshot": "false",
+      "db": "ecommerce_db",
+      "sequence": "[null,\"2000003\"]",
+      "schema": "public",
+      "table": "orders",
+      "txId": 100003,
+      "lsn": 2000003,
+      "xmin": null
+    },
+    "op": "u",
+    "ts_ms": 1736935800000,
+    "transaction": null
+  },
+  {
+    "before": {
+      "order_id": 5,
+      "user_id": 12,
+      "order_date": "2026-01-02T09:15:00.000000+00:00",
+      "status": "pending",
+      "total_amount": 150.00,
+      "payment_method": "Credit Card",
+      "created_at": "2026-01-02T09:15:00.000000+00:00",
+      "updated_at": "2026-01-02T09:15:00.000000+00:00",
+      "is_deleted": false
+    },
+    "after": null,
+    "source": {
+      "version": "2.1.4.Final",
+      "connector": "postgresql",
+      "name": "ecommerce",
+      "ts_ms": 1736936100000,
+      "snapshot": "false",
+      "db": "ecommerce_db",
+      "sequence": "[null,\"2000004\"]",
+      "schema": "public",
+      "table": "orders",
+      "txId": 100004,
+      "lsn": 2000004,
+      "xmin": null
+    },
+    "op": "d",
+    "ts_ms": 1736936100000,
+    "transaction": null
+  },
+  {
+    "before": {
+      "order_id": 8,
+      "user_id": 22,
+      "order_date": "2026-01-05T14:30:00.000000+00:00",
+      "status": "processing",
+      "total_amount": 275.50,
+      "payment_method": "PayPal",
+      "created_at": "2026-01-05T14:30:00.000000+00:00",
+      "updated_at": "2026-01-05T14:30:00.000000+00:00",
+      "is_deleted": false
+    },
+    "after": null,
+    "source": {
+      "version": "2.1.4.Final",
+      "connector": "postgresql",
+      "name": "ecommerce",
+      "ts_ms": 1736936400000,
+      "snapshot": "false",
+      "db": "ecommerce_db",
+      "sequence": "[null,\"2000005\"]",
+      "schema": "public",
+      "table": "orders",
+      "txId": 100005,
+      "lsn": 2000005,
+      "xmin": null
+    },
+    "op": "d",
+    "ts_ms": 1736936400000,
+    "transaction": null
+  }
+]
